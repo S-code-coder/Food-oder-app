@@ -1,0 +1,39 @@
+.form{
+    width: 100%;
+   
+}
+.formgroup{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.formgroup label{
+    display: block;
+}
+.formgroup input{
+    width: 100%;
+}
+.button{
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #8a2b06;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+   float:right;
+   margin-left: 10px;
+}
+.button:hover,
+.button:active{
+    background-color: #5a1a01;
+    border-color: #5a1a01;
+    color: white;
+}
+.button:disabled{
+    background-color: #ccc;
+    color: #292929;
+    border-color: #ccc;
+    cursor: not-allowed;
+}
+.invalid{
+    color:red;
+}
